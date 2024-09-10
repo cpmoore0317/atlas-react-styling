@@ -5,12 +5,12 @@ import PlayControls from "./PlayControls";
 import VolumeControl from "./VolumeControl";
 import placeholderSvg from "../assets/placeholder.svg"; // Import the SVG directly
 
-// Example song data for demonstration
+// Example song data
 const currentSong = {
-  imageUrl: placeholderSvg,  // Use the imported SVG path
+  imageUrl: placeholderSvg, 
   altText: "Cover Art",
-  title: "Song Title",
-  author: "Artist Name",
+  title: "Painted in Blue",
+  author: "Soul Canvas",
 };
 
 const CurrentlyPlaying = () => {
