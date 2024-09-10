@@ -3,7 +3,7 @@ import { PlayIcon, ArrowUturnLeftIcon, ArrowRightIcon, ArrowPathIcon } from "@he
 
 const PlayControls = () => {
   return (
-    <div className="flex justify-between items-center space-x-4">
+    <div className="flex justify-between items-center w-full px-4">
       <button className="hover:text-teal transition-colors">
         <ArrowUturnLeftIcon className="h-6 w-6 text-light-gray" />
       </button>
