@@ -33,7 +33,6 @@ export default function MusicPlayer() {
       {/* Playlist */}
       <div className="flex flex-col items-center space-y-4"> 
         {/* Vertical spacing instead of horizontal */}
-        <CoverArt imageUrl={currentSong.imageUrl} altText={currentSong.altText} />
         <SongTitle title={currentSong.title} author={currentSong.author} />
       </div>
 
