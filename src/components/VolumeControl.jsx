@@ -2,13 +2,13 @@ import React from "react";
 
 const VolumeControl = () => {
   return (
-    <div className="flex items-center space-x-2">
-      <span className="text-light-gray">Volume</span>
+    <div className="w-full flex items-center">
       <input
         type="range"
+        className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
         min="0"
         max="100"
-        className="h-1 w-32 bg-teal rounded-lg focus:outline-none"
+        step="1"
       />
     </div>
   );
