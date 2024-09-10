@@ -14,7 +14,7 @@ const currentSong = {
 
 const CurrentlyPlaying = () => {
   return (
-    <div className="flex flex-col items-center space-y-4 bg-white">
+    <div className="flex flex-col items-start space-y-4 bg-white"> {/* changed to items-start */}
       <CoverArt imageUrl={currentSong.imageUrl} altText={currentSong.altText} />
       <SongTitle title={currentSong.title} author={currentSong.author} />
       <PlayControls />

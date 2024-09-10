@@ -11,7 +11,9 @@ const playlist = [
 const Playlist = () => {
   return (
     <div>
-      <h2 className="text-black text-xl font-bold mb-4">Playlist</h2>
+      <h2 className="text-black text-xl font-bold mb-4 text-left"> {/* added text-left */}
+        Playlist
+      </h2>
       {playlist.map((song, index) => (
         <PlayListItem key={index} title={song.title} genre={song.genre} length={song.length} />
       ))}
