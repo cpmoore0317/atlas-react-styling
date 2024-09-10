@@ -31,11 +31,12 @@ export default function MusicPlayer() {
       <VolumeControl />
 
       {/* Playlist */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-semibold">Play List</h3>
-        <PlayListItem title={currentSong.title} genre={currentSong.genre} length={currentSong.length} />
-        {/* Add more <PlayListItem /> components for additional songs */}
+      <div className="flex flex-col items-center space-y-4"> 
+        {/* Vertical spacing instead of horizontal */}
+        <CoverArt imageUrl={currentSong.imageUrl} altText={currentSong.altText} />
+        <SongTitle title={currentSong.title} author={currentSong.author} />
       </div>
+
     </div>
   );
 }

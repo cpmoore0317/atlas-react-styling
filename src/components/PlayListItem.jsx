@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlayListItem = ({ title, genre, length }) => {
   return (
-    <div className="flex justify-between items-center p-4 border-b border-gray-300">
+    <div className="flex justify-between items-center p-4 border-b border-gray-300 hover:bg-gray-700 transition-colors">
       <div>
         <h3 className="text-lg font-semibold">{title}</h3>
         <p className="text-sm text-gray-500">{genre}</p>
